@@ -27,13 +27,12 @@ body {
 
 .tile {
 	box-sizing: border-box;
-	border: 1px solid black;
-	width: 12.5%;
+	border: 0;
 	aspect-ratio: 1 / 1;
 	margin: 0;
 	flex: auto;
 }
 
 .tile:hover {
-	background-color: lightslategray;
+	background-color: ghostwhite;
 }
